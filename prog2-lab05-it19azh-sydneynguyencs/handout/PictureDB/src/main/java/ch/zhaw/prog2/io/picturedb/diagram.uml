@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="572.0" y="0.0">ch.zhaw.prog2.io.picturedb.PictureImport</node>
+    <node x="0.0" y="567.0">ch.zhaw.prog2.io.picturedb.FilePictureDatasource</node>
+    <node x="0.0" y="467.0">ch.zhaw.prog2.io.picturedb.PictureDatasource</node>
+    <node x="265.0" y="145.0">ch.zhaw.prog2.io.picturedb.Picture</node>
+    <node x="214.75" y="0.0">ch.zhaw.prog2.io.picturedb.Record</node>
+    <node x="779.0" y="0.0">ch.zhaw.prog2.io.picturedb.RecordNotFoundException</node>
+    <node x="78.0" y="201.0">ch.zhaw.prog2.io.picturedb.GenericDatasource</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ch.zhaw.prog2.io.picturedb.GenericDatasource" target="ch.zhaw.prog2.io.picturedb.Record">
+      <point x="0.0" y="-80.0" />
+      <point x="161.5" y="120.0" />
+      <point x="246.75" y="120.0" />
+      <point x="-32.0" y="47.5" />
+    </edge>
+    <edge source="ch.zhaw.prog2.io.picturedb.PictureDatasource" target="ch.zhaw.prog2.io.picturedb.GenericDatasource">
+      <point x="0.0" y="-25.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="ch.zhaw.prog2.io.picturedb.Picture" target="ch.zhaw.prog2.io.picturedb.Record">
+      <point x="0.0" y="-136.0" />
+      <point x="396.0" y="120.0" />
+      <point x="310.75" y="120.0" />
+      <point x="32.0" y="47.5" />
+    </edge>
+    <edge source="ch.zhaw.prog2.io.picturedb.FilePictureDatasource" target="ch.zhaw.prog2.io.picturedb.PictureDatasource">
+      <point x="0.0" y="-147.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="506.2222222222217" y="293.44444444444434" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
